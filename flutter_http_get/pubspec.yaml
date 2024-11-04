@@ -1,0 +1,52 @@
+name: flutter_http_get
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using flutter pub publish. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 0.1.0 # Update version number if needed
+
+environment:
+  sdk: '>=3.1.0 <4.0.0' # Make sure your Flutter SDK version is compatible
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  http: ^1.1.0
+
+
+  # Cupertino Icons untuk iOS style icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Set lints untuk memastikan coding practices yang baik
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  # Gunakan Material Icons
+  uses-material-design: true
+
+  # Untuk menambahkan asset, pastikan direktori dan nama file sudah benar
+  # Tambahkan gambar atau asset lain ke aplikasi Anda
+  # assets:
+  
+  # Untuk menggunakan font custom, tambahkan di sini
+  #fonts:
+  # - family: Lato
+   #   fonts:
+    #    - asset: assets/fonts/Lato-Regular.ttf
+     #   - asset: assets/fonts/Lato-Bold.ttf
+      #    weight: 700
+
+   # - family: Anton
+    #  fonts:
+     #   - asset: assets/fonts/Anton-Regular.ttf
+
+  # Jika ada masalah dengan font, pastikan file font terletak di folder yang benar
+  # Cek kembali apakah path asset sudah sesuai dengan direktori proyek
